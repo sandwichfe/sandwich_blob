@@ -27,6 +27,8 @@
     "toc": "Table of Content",
     "comment": "Comments",
     "recent_comment": "Recent Comments",
+    "comment_placeholder":"add comment...",
+    "comment_btn_text":"add comment",
     "website_info": "Website Info",
     "notice":"Notice"
   },

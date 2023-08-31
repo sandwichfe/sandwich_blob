@@ -27,6 +27,8 @@
     "toc": "文章目录",
     "comment": "评论区",
     "recent_comment": "最近评论",
+    "comment_placeholder":"请说出你的想法",
+    "comment_btn_text":"评论",
     "website_info": "网站信息",
     "notice":"公告"
   },

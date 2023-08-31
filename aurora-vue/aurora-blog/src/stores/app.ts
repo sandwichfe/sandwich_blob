@@ -32,7 +32,8 @@ export const useAppStore = defineStore('appStore', {
           color_2: '#5433ff',
           color_3: '#ff0099'
         },
-        header_gradient_css: 'linear-gradient(130deg, #24c6dc, #5433ff 41.07%, #ff0099 76.05%)',
+        // 首页渐变
+        header_gradient_css: 'linear-gradient(130deg, #D3CCE3, #E9E4F0 61.07%, #E9E4F0 36.05%)',
         background_gradient_style: {
           background: 'linear-gradient(130deg, #24c6dc, #5433ff 41.07%, #ff0099 76.05%)',
           '-webkit-background-clip': 'text',

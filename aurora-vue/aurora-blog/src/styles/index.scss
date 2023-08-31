@@ -37,14 +37,15 @@ html::-webkit-scrollbar {
 }
 
 html::-webkit-scrollbar-thumb {
-  background: #434343;
+  background: #c6d7e2;
   border-radius: 16px;
-  box-shadow: inset 2px 2px 2px rgba(100, 100, 100, 0.25), inset -2px -2px 2px rgba(0, 0, 0, 0.25);
+  box-shadow: inset 2px 2px 2px rgba(230, 210, 210, 0.25), inset -2px -2px 2px rgba(193, 230, 214, 0.25);
 }
 
+ // 滚动条
 html::-webkit-scrollbar-track {
   border: none;
-  background: linear-gradient(90deg, #434343, #434343 1px, #111 0, #111);
+  background: linear-gradient(90deg, #d9ece8, #c2d3d6 1px, rgb(219, 212, 212) 0, rgb(193, 196, 207));
 }
 
 div::-webkit-scrollbar {
@@ -53,7 +54,7 @@ div::-webkit-scrollbar {
 }
 
 div::-webkit-scrollbar-thumb {
-  background: #434343;
+  background: #928484;
   border-radius: 16px;
   box-shadow: inset 2px 2px 2px rgba(100, 100, 100, 0.25), inset -2px -2px 2px rgba(0, 0, 0, 0.25);
 }
