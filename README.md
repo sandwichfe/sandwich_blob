@@ -1,2 +1,2 @@
-原作者:[<a></a> [花未眠aurora]([https://www.imooc.com/]( '')](https://github.com/linhaojun857/aurora)https://github.com/linhaojun857/aurora)https://github.com/linhaojun857/aurora)https://github.com/linhaojun857/aurora
+原作者:  https://github.com/linhaojun857/aurora
 本人fork过来稍微修改一点点.......
