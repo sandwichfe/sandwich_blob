@@ -32,8 +32,9 @@ public class MinioUploadStrategyImpl extends AbstractUploadStrategyImpl {
     @Override
     public void upload(String path, String fileName, InputStream inputStream) {
         getMinioClient().putObject(
-                PutObjectArgs.builder().bucket(minioProperties.getBucketName()).object(path + fileName).stream(
-                                inputStream, inputStream.available(), -1)
+                PutObjectArgs.builder().bucket(minioProperties.getBucketName()).object(path + fileName)
+                        //.contentType("image/png")
+                        .stream(inputStream, inputStream.available(), -1)
                         .build());
     }
 

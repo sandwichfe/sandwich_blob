@@ -68,25 +68,40 @@ export default {
 
 <style scoped>
 .login-container {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  background: url(https://static.linhaojun.top/aurora/photos/765664a8a75211296a9cd89671d6d660.png) center center / cover
-    no-repeat;
+  height: 780px;
+  margin: auto;
+  overflow: hidden;
+  background: radial-gradient(
+      circle at 60% 90%,
+      rgb(161 207 181),
+      transparent 60%
+    ),
+    radial-gradient(
+      circle at 20px 20px,
+      rgb(253 253 253 / 80%),
+      transparent 25%
+    ),
+    #e7eefcbf
 }
 .login-card {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  background: #fff;
-  padding: 170px 60px 180px;
-  width: 350px;
+  padding: 60px 45px 5px;
+  width: 421px;
+  height: 300px;
+  margin: auto;
+  margin-top:75px ;
+
+  color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+  border-left: 1px solid rgba(255, 255, 255, 0.4);
+  background: linear-gradient( to top right, #fff, #f5f7fa );
+  box-shadow: 10px -10px 20px rgba(0, 0, 0, 0.2),
+  -10px 10px 20px rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(6px);  /* 元素后面区域添加模糊效果 */
+  border-radius: 20px;
 }
 .login-title {
-  color: #303133;
+  color: #99bfbd;
   font-weight: bold;
   font-size: 1rem;
 }
